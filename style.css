@@ -1,0 +1,169 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+MOBILE/BASE STYLES:
+*********************************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+    background-color: #D0DCF2;
+}
+
+
+
+h1 {
+  margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  font-family: 'DM Sans', sans-serif;
+  max-width: 1000px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  max-width: 1000px;
+  padding-bottom: 5px;
+  color: #1F438C;
+
+}
+
+.byline {
+  margin: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-bottom: 3px;
+}
+
+.dateline {
+  margin: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+
+.container {
+  max-width: 1000px;
+  padding: 9px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+figure {
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    max-width:850px;
+}
+
+.main_img {
+    width: 100%;
+}
+
+.mobile{
+    display: block;
+  }
+
+.tablet{
+      display: none;
+    }
+
+.desktop{
+      display: none;
+    }
+
+
+.info{
+  padding:10px;
+  max-width: 900px;
+}
+
+
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 500px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+
+.container{
+  max-width: 900px;
+  padding: 10px;
+  margin:auto;
+}
+
+.mobile{
+  display: none;
+}
+
+.tablet{
+    display: block;
+}
+.desktop{
+  display: none;
+}
+
+
+
+.info{
+  margin:auto;
+}
+
+h1{
+  margin:auto;
+}
+
+h3{
+  margin:auto;
+}
+
+.byline{
+  margin:auto;
+}
+
+.dateline{
+  margin:auto;
+}
+
+figure {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+/*********************************************************************
+DESKTOP-ONLY STYLES
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+
+
+.mobile{
+         display: none;
+       }
+.tablet{
+         display: none;
+       }
+
+.desktop{
+        display: block;
+        justify-content: space-between;
+        margin:auto;
+      }
