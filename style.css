@@ -65,22 +65,14 @@ figure {
     margin: auto;
 }
 
-img {
-    width: 100%;
-    max-width:850px;
+.photo {
+  font-style:italic;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin: 10px auto;
+  max-width:1000px;
+  display: block;
 }
-
-.main_img {
-    width: 100%;
-}
-
-.mobile{
-    display: block;
-  }
-
-.tablet{
-      display: none;
-    }
 
 .desktop{
       display: none;
